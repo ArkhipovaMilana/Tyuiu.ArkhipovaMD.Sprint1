@@ -1,0 +1,37 @@
+﻿using Tyuiu.ArkhipovaMD.Sprint1.Task2.V4.Lib;
+namespace Tyuiu.ArkhipovaMD.Sprint1.Task2.V4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DataService ds = new DataService();
+            Console.Title = "Спринт #1 | Выполнила: Архипова М.Д. | АСОиУб-25-1";
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #1                                                               *");
+            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #4                                                              *");
+            Console.WriteLine("* Выполнила: Архипова М.Д. | АСОиУб-25-1                                  *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Известна длина стороны квадрата. Вычислить площадь квадрата.            *");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("***************************************************************************");
+
+            int x;
+            Console.WriteLine("Введите значение X:");
+            x = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("РЕЗУЛЬТАТ:                                                                *");
+            Console.WriteLine("***************************************************************************");
+
+            Console.WriteLine("Площадь квадрата " + ds.CalculateSquare(x));
+
+        }
+    }
+}
