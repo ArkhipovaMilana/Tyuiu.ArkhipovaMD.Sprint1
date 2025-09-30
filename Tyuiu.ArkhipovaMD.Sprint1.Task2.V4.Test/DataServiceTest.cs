@@ -7,10 +7,11 @@ namespace Tyuiu.ArkhipovaMD.Sprint1.Task2.V4.Test
         [TestMethod]
         public void ValidExpression()
         {
-            DataService ds =new DataService();
+            DataService ds = new DataService();
             int x = 2;
-            var res =ds.CalculateSquare(x);
-            Assert.AreEqual(4,res);
+            var res = ds.CalculateSquare(x);
+            Assert.AreEqual(4, res);
         }
     }
 }
+
