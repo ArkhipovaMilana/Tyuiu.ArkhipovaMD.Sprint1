@@ -22,13 +22,13 @@ namespace Tyuiu.ArkhipovaMD.Sprint1.Task1.V1
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int a;
+            double a;
             Console.WriteLine("Введите значение A:");
             a = Convert.ToInt32(Console.ReadLine());
-            int x;
+            double x;
             Console.WriteLine("Введите значение X:");
             x = Convert.ToInt32(Console.ReadLine());
-            int y;
+            double y;
             Console.WriteLine("Введите значение Y:");
             y = Convert.ToInt32(Console.ReadLine());
 
